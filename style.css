@@ -1,0 +1,129 @@
+@media screen and (min-width: 414px) {
+}
+body {
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  background-image: url("img/dal.png");
+  background-position-y: top;
+  background-color: rgba(38, 50, 56, 0.65);
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.tulisan_atas {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.panel_login {
+  width: 240px;
+  height: 320px;
+  top: 200px;
+  background: #ece6e6;
+  margin: 80px auto;
+  padding: 30px 20px;
+  box-shadow: 6px 0px 100px 4px #064db7;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  box-sizing: border-box;
+  flex-wrap: row;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: #2aa7e2;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.alert {
+  background: #e44e4e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b32929;
+}
+.center-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Popup container - can be hidden by default */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+/* Popup content */
+.popup-content {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  background: red;
+  border-radius: 5px;
+  width: 30%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* Close button */
+.close-btn {
+  background: #2aa7e2;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.btn {
+  background: #2aa7e2;
+  color: blue;
+  font-size: 11pt;
+  width: 10px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 5px;
+}
+
+@media screen and (max-width: 414px) {
+}
